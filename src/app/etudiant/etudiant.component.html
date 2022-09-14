@@ -1,0 +1,10 @@
+<p>{{ nom }} {{ prenom }}</p>
+<br />
+<button type="button" class="btn btn-primary" (click)="onClick()">
+  Primary
+</button>
+<br />
+<br />
+<input type="text" (input)="onTap($event)" [(ngModel)]="tapingValue" />
+<br />
+<span>you typing {{ tapingValue }}</span>
